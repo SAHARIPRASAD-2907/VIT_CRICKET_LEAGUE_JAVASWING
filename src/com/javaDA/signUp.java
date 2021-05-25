@@ -142,9 +142,7 @@ public class signUp extends JFrame implements ActionListener{
         }
     }
 
-    public static void main(String[] args) {
-        new signUp().setVisible(true);
-    }
+
 
 
 }

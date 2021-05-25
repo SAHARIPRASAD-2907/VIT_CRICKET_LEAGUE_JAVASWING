@@ -29,7 +29,7 @@ public class Loading extends JFrame implements Runnable{
               }else{
                   i=201;
                   setVisible(false);
-                  new loginUsers().setVisible(true);
+                  new Home().setVisible(true);
               }
               Thread.sleep(50);
           }
@@ -43,6 +43,7 @@ public class Loading extends JFrame implements Runnable{
 
         setBounds(600,300,600,400);
         contentPanel = new JPanel();
+        contentPanel.setBackground(Color.BLACK);
         setContentPane(contentPanel);
         contentPanel.setLayout(null);
 
@@ -58,11 +59,11 @@ public class Loading extends JFrame implements Runnable{
         progressBar.setBounds(130, 135, 300, 25);
         contentPanel.add(progressBar);
 
-        JLabel lblNewLabel_2 = new JLabel("Please Wait....");
-        lblNewLabel_2.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 20));
-        lblNewLabel_2.setForeground(new Color(160, 82, 45));
-        lblNewLabel_2.setBounds(200, 165, 150, 20);
-        contentPanel.add(lblNewLabel_2);
+        JLabel lblNewLabel2 = new JLabel("Please Wait....");
+        lblNewLabel2.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 20));
+        lblNewLabel2.setForeground(new Color(160, 82, 45));
+        lblNewLabel2.setBounds(200, 165, 150, 20);
+        contentPanel.add(lblNewLabel2);
 
 
         JPanel panel = new JPanel();
