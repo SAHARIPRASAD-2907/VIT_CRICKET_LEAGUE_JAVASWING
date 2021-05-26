@@ -82,13 +82,13 @@ public class RemovePlayer extends JFrame implements ActionListener{
         lblBranch.setBounds(303, 144, 68, 24);
         contentPane.add(lblBranch);
 
-        JLabel lblDateOfIssue = new JLabel("Date of removal");
+        JLabel lblDateOfIssue = new JLabel("Date of add");
         lblDateOfIssue.setForeground(Color.BLACK);
         lblDateOfIssue.setFont(new Font("Tahoma", Font.BOLD, 14));
         lblDateOfIssue.setBounds(52, 188, 105, 29);
         contentPane.add(lblDateOfIssue);
 
-        JLabel lblDateOfReturn = new JLabel("Date of Return");
+        JLabel lblDateOfReturn = new JLabel("Date of Remove");
         lblDateOfReturn.setForeground(Color.BLACK);
         lblDateOfReturn.setFont(new Font("Tahoma", Font.BOLD, 14));
         lblDateOfReturn.setBounds(52, 234, 118, 29);
@@ -160,7 +160,7 @@ public class RemovePlayer extends JFrame implements ActionListener{
         dateChooser.setBounds(167, 234, 172, 29);
         contentPane.add(dateChooser);
 
-        b2 = new JButton("Return");
+        b2 = new JButton("Remove");
         b2.addActionListener(this);
         b2.setFont(new Font("Trebuchet MS", Font.BOLD, 15));
         b2.setBorder(new LineBorder(new Color(0, 0, 0), 1, true));

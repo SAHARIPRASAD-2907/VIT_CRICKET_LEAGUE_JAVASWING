@@ -32,7 +32,7 @@ public class AddTeam extends JFrame implements ActionListener{
         l1.setBounds(64, 63, 102, 22);
         contentPane.add(l1);
 
-        JLabel l2 = new JLabel("captain name");
+        JLabel l2 = new JLabel("coach name");
         l2.setForeground(new Color(25, 25, 112));
         l2.setFont(new Font("Tahoma", Font.BOLD, 14));
         l2.setBounds(64, 97, 102, 22);

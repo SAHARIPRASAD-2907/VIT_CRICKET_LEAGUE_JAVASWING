@@ -9,9 +9,7 @@ import javax.swing.border.*;
 public class AboutMe extends JFrame{
     private JPanel contentPane;
 
-    public static void main(String[] args) {
-        new AboutMe().setVisible(true);
-    }
+
     public AboutMe(){
         super("About Us - Code for Interview");
         setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\ram\\Desktop\\rohit.jpg"));

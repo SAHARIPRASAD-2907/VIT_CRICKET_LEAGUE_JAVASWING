@@ -15,9 +15,7 @@ public class ScheduleMatch extends JFrame implements ActionListener{
     private JButton b1,b2;
     JComboBox comboBox;
 
-    public static void main(String[] args) {
-        new ScheduleMatch().setVisible(true);
-    }
+
 
     public void random() {
         Random rd = new Random();
